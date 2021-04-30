@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace UserRegisLambdaExpression
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Regex using lambda expressions");
         }
     }
 }

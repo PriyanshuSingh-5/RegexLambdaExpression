@@ -1,0 +1,17 @@
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\obj\Debug\MSTestUserLambda.csprojAssemblyReference.cache
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\obj\Debug\MSTestUserLambda.csproj.CoreCompileInputs.cache
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\MSTestUserLambda.dll
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\MSTestUserLambda.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\UserRegisLambdaExpression.exe
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\UserRegisLambdaExpression.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\UserRegisLambdaExpression.exe.config
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\obj\Debug\MSTestUserLambda.csproj.CopyComplete
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\obj\Debug\MSTestUserLambda.dll
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\MSTestUserLambda\obj\Debug\MSTestUserLambda.pdb

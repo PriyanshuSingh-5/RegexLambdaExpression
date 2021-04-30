@@ -1,0 +1,7 @@
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\UserRegisLambdaExpression\obj\Debug\UserRegisLambdaExpression.csprojAssemblyReference.cache
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\UserRegisLambdaExpression\obj\Debug\UserRegisLambdaExpression.csproj.CoreCompileInputs.cache
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\UserRegisLambdaExpression\bin\Debug\UserRegisLambdaExpression.exe.config
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\UserRegisLambdaExpression\bin\Debug\UserRegisLambdaExpression.exe
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\UserRegisLambdaExpression\bin\Debug\UserRegisLambdaExpression.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\UserRegisLambdaExpression\obj\Debug\UserRegisLambdaExpression.exe
+C:\Users\K.R.DHASHNIGA\source\repos\UserRegisLambdaExpression\UserRegisLambdaExpression\obj\Debug\UserRegisLambdaExpression.pdb
