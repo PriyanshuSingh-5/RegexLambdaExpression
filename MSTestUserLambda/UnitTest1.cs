@@ -5,63 +5,87 @@ using UserRegisLambdaExpression;
 namespace MSTestUserLambda
 {
     [TestClass]
-    public class UnitTest1
+    public class Test
     {
-
-        RegexPattern pattern = new RegexPattern();
-
+        //valid first name
         [TestMethod]
-
-        public void GivenUserFistName_WhenValidate_ShouldReturnresult()
+        public void GivenFirstNameShouldReturnHappy()
         {
+            try
+            {
+                //Act
+                bool output = pattern.ValidateFirstName("Priyanshu");
+            }
+
+            catch (RegistrationException e)
             
-            bool expected = true;
-            //Act
-            bool output = pattern.ValidateFirstName("Priyanshu");
-            //Assert
-            Assert.AreEqual(expected, output);
+            {
+                //Assert
+                Assert.AreEqual("Invalid First Name,Name should be first letter capital", e.Message);
+            }
         }
+
+       //valid last name 
         [TestMethod]
         public void GivenLastNameShouldReturnHappy()
         {
-            bool expected = true;
-            bool output = pattern.ValidateLastName("Singh");
-            Assert.AreEqual(expected, output);
+            try
+            {
+                bool output = pattern.ValidateLastName("Singh");
+            }
+            catch (RegistrationException e)
+            {
+                Assert.AreEqual("Invalid Last Name,Name should be first letter capital", e.Message);
+            }
         }
 
-       
+      // ValidateEmails
         [TestMethod]
         public void GivenValidEmailIdShouldReturnHappy()
         {
-            //Arrange
-            bool expected = true;
-            //Act
-            bool output = pattern.ValidateEmail("abc@gmail.com");
-            // Assert
-            Assert.AreEqual(expected, output);
+
+            try
+            {
+                //Act
+                bool output = pattern.ValidateEmail("abc@gmail.com");
+            }
+            catch (RegistrationException e)
+            {
+                // Assert
+                Assert.AreEqual("Invalid Email", e.Message);
+            }
         }
 
 
-        
+        //valid mobile number or not
         [TestMethod]
         public void GivenValidMobileShouldReturnHappy()
         {
-            bool expected = true;
-            bool output = pattern.ValidatePhoneNumber("91 9146293697");
-            Assert.AreEqual(expected, output);
+            try
+            {
+                bool output = pattern.ValidateMobileNo("91 9146293697");
+            }
+            catch (RegistrationException e)
+            {
+                Assert.AreEqual("Invalid Mobile number,number should be predefined format", e.Message);
+            }
         }
 
-        /// <summary>
-        /// Given Valid Password should return true
-        /// </summary>
-        [TestMethod]
+        //valid password or not
         public void GivenValidPasswordShouldReturnHappy()
         {
-            bool expected = true;
-            bool output = pattern.ValidatePassword("Shaloo@05");
-            Assert.AreEqual(expected, output);
+            try
+            {
+                bool output = pattern.ValidatePassword("Shaloo@123");
+            }
+            catch (RegistrationException e)
+            {
+                Assert.AreEqual("Invalid Password,Password should be in format", e.Message);
+            }
+
         }
 
+       //Email
         [DataTestMethod]
         [DataRow("abc@yahoo.com")]
         [DataRow("abc-100@yahoo.com")]
@@ -74,9 +98,14 @@ namespace MSTestUserLambda
         [DataRow("abc+100@gmail.com")]
         public void GivenValidEmailListShouldReturnsTrue(string email)
         {
-            bool expected = true;
-            var result = pattern.ValidateEmailList(email);
-            Assert.AreEqual(expected, result);
+            try
+            {
+                var result = pattern.validateEmailList(email);
+            }
+            catch (RegistrationException e)
+            {
+                Assert.AreEqual("Invalid Email.Email should be in format", e.Message);
+            }
         }
     }
 }

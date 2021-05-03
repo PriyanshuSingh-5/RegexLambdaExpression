@@ -17,7 +17,8 @@ namespace UserRegisLambdaExpression
             INVALID_LASTNAME,
             INVALID_PASSWORD,
             INVALID_EMAIL_ID,
-            INVALID_MOBILE_NUMBER
+            INVALID_MOBILE_NUMBER,
+            INVALID_EMAILLIST
         }
 
 
