@@ -85,12 +85,15 @@ namespace UserRegisLambdaExpression
             }
 
         }
-    }
+    
 
-    //Using Lambda Expressions
-    public bool ValidateFirstName(string firstName) => (Regex.IsMatch(firstName, FirstName));
-    public bool ValidateLastName(string lastName) => (Regex.IsMatch(lastName, LastName));
-    public bool ValidateEmail(string email) => (Regex.IsMatch(email, Email));
-    public bool ValidateMobile(string mobNumber) => (Regex.IsMatch(mobNumber, PhoneNumber));
-    public bool ValidatePassword(string password) => (Regex.IsMatch(password, Password));
+
+        //Using Lambda Expressions
+        public bool ValidateFirstName(string firstName) => (Regex.IsMatch(firstName, FirstName));
+        public bool ValidateLastName(string lastName) => (Regex.IsMatch(lastName, LastName));
+        public bool ValidateEmail(string email) => (Regex.IsMatch(email, Email));
+        public bool ValidateMobile(string mobNumber) => (Regex.IsMatch(mobNumber, PhoneNumber));
+        public bool ValidatePassword(string password) => (Regex.IsMatch(password, Password));
+
+    }
 }
